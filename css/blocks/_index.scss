@@ -1,0 +1,346 @@
+.header__navigation {
+    display: none;
+    position: absolute;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.main__banner {
+    background-color: #f1e4e6;
+    height: 764px;
+
+}
+
+.main__banner-conteiner {
+    display: flex;
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.main__banner .main__banner-content {
+    width: 100%;
+    background-color: #f1e4e6;
+}
+
+.main__banner .banner__text {
+    position: relative;
+    padding: 0 0 0 92px;
+    padding-top: 260px;
+}
+
+.banner__text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.banner__text-color {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-style: normal;
+    color: $main-color;
+
+}
+
+.banner__text-black {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main__banner .banner__text::before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 92px;
+    background-color: $main-color;
+    left: 64px;
+}
+
+.main__stock {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.main__stock-list {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 65px;
+    list-style: none;
+}
+
+.main_stock_form-woman {
+    background-image: url(../img/a_woman_in_a_dress.png);
+    filter: brightness(55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.main_stock_form-man {
+    background-image: url(../img/the_man_in_the_jacket.png);
+    filter: brightness(55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.main_stock_form-kid {
+    background-image: url(../img/the_boy_in_the_suit.png);
+    filter: brightness(55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 260px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.main_stock_form-accesories {
+    background-image: url(../img/Accessories.png);
+    filter: brightness(55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 180px;
+    text-align: center;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.main_stock_text-discounts {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.main_stock_text-category {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    font-style: normal;
+    color: $main-color;
+}
+
+.main__product {
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.main__product-title {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 97px;
+    padding-bottom: 48px;
+}
+
+.product__title-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.product__title_text-shop {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.product__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none
+}
+
+.product__list {
+    position: relative;
+    width: 360px;
+    background-color: #F8F8F8;
+}
+
+.product__cart-button {
+    display: none;
+    position: absolute;
+    top: 190px;
+    left: 110px;
+    transition-duration: 0.5s;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFF;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    width: 139px;
+    height: 43px;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.product__button-img {
+    position: relative;
+    right: 4px;
+    top: 2px;
+}
+
+.product__button-text {
+    position: relative;
+    bottom: 6px;
+    left: 3px;
+    width: 72px;
+    height: 17px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.product__item_name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.product__item_container {
+    padding: 25px 29px 20px 16px;
+}
+
+.product__item_text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.product__item_price {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $main-color;
+}
+
+.main__product .product__list:nth-child(1),
+.main__product .product__list:nth-child(2),
+.main__product .product__list:nth-child(3) {
+    margin: 0 0 30px;
+}
+
+.main__product .product__list:hover .product__item-img,
+.main__product .product__list:focus .product__item-img {
+    filter: brightness(55%);
+}
+
+.main__product .product__list:hover .product__cart-button,
+.main__product .product__list:focus .product__item-img {
+    display: block;
+}
+
+
+.main__browse {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+}
+
+.main__browse-button {
+    width: 211px;
+    height: 47px;
+    @include color-button();
+    cursor: pointer;
+}
+
+.main__browse :hover {
+    background-color: $main-color;
+    color: $second-color;
+}
+
+.browde__button_text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: $main-color;
+}
+
+.main__advantages {
+    height: 341px;
+    background-color: #222224;
+    margin-top: 105px;
+}
+
+.advantages__item {
+    display: flex;
+    justify-content: center;
+    padding-top: 104px;
+    text-align: center;
+}
+
+.advantages__list {
+    margin: 0 30px 0 0;
+}
+
+.advantages__list-text {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    padding-top: 19px;
+    color: #FBFBFB;
+}
+
+.advantages__list-subtext {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+    padding-top: 16px;
+    width: 360px;
+    height: 34px;
+}

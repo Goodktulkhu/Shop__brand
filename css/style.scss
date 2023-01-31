@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+$main-color: #F16D7F;
+$second-color: #FBFBFB;
+
+@mixin color-button() {
+    color: $main-color;
+    background-color: $second-color;
+    border: 1px solid $main-color;
+}
+
+@mixin color-button-hover() {
+    color: $second-color;
+    background-color: $main-color;
+    border: 1px solid $main-color;
+}
+
+/*header*/
+@import 'blocks/header';
+/*footer*/
+@import 'blocks/footer';
+/*index*/
+@import 'blocks/index';
+/* Registration */
+@import 'blocks/registration';
+/* CATALOG */
+@import 'blocks/catalog';
+/* PRODUCT */
+@import 'blocks/product';
+/* CART */
+@import 'blocks/cart';
+
+
+
+
+
+
+
+
+
+
+
+
+
+

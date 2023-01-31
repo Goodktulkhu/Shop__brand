@@ -1,0 +1,235 @@
+.main__cart {
+    margin-top: 98px;
+    height: 870px;
+}
+
+.main__cart-container {
+    margin: 0 auto;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__product-item {
+    margin-bottom: 40px;
+    display: flex;
+    width: 650px;
+    height: 309px;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.cart__info-list {
+    padding-left: 30px;
+}
+
+.cart_info-sublist {
+    padding-top: 22px;
+    display: flex;
+}
+
+.cart__info_item-name {
+    width: 262px;
+    height: 58px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+}
+
+.cart__info-item-delete {
+    padding-left: 58px;
+    padding-top: 5px;
+}
+
+.cart__info_item-price {
+    padding-top: 42px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.cart__info_item-pink {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: $main-color;
+}
+
+.cart__info_item-color {
+    padding-top: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.cart__info_item-size {
+    padding-top: 6px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.cart__info_item-Quantity {
+    padding-top: 6px;
+    display: flex;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+
+}
+
+.cart__info_item-value {
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    width: 44px;
+    height: 25px;
+    border: 1px solid #EAEAEA;
+}
+
+.cart_product_btn-item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.cart__product-btn {
+    width: 235px;
+    height: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    @include color-button();
+}
+
+.main__cart-form {
+    margin-left: 128px;
+    padding-top: 15px;
+    justify-content: end;
+}
+
+.cart__form-adress {
+    display: block;
+}
+
+.cart__form_adress-field {
+    display: block;
+}
+
+.form-adress-leg {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.form__adress-field {
+    width: 350px;
+    height: 45px;
+    margin-top: 20px;
+    padding-left: 17px;
+    
+}
+
+.cart__form-btn {
+    display: block;
+    margin-top: 25px;
+    width: 100px;
+    height: 35px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    @include color-button();
+}
+
+.main__chekout-box {
+    width: 360px;
+    height: 215px;
+    margin-top: 58px;
+    background: #F5F3F3;
+    display: block;
+}
+
+.main__chekout_text-sub {
+    width: 108px;
+    padding-left: 228px;
+    padding-top: 39px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+}
+
+.main__chekout-text {
+    width: 170px;
+    padding-left: 153px;
+    padding-top: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.main__chekout_text-pink {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $main-color;
+}
+
+.main__chekout-stripe {
+    display: flex;
+    margin-left: 45px;
+    margin-top: 20px;
+    width: 270px;
+    border: 1px solid #E2E2E2;
+    ;
+}
+
+.main__chekout-btn {
+    margin-left: 45px;
+    margin-top: 17px;
+    width: 270px;
+    height: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    @include color-button();
+}
+
+.cart__product-btn:hover,
+.main__chekout-btn:hover,
+.cart__form-btn:hover {
+    color: $second-color;
+    background-color: $main-color;
+}

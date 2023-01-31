@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  background-color: #222222;
+  height: 75px;
+}
+
+.header__conteiner {
+  margin: 0 auto;
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  margin: 0 41px 0 0;
+}
+
+.header__button {
+  background-color: transparent;
+  border: none;
+}
+
+.header__button-icon {
+  color: #E8E8E8;
+}
+
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header__menu-item:not(:last-child) {
+  margin: 0 33px 0 0;
+}
+
+.header__button-icon:hover {
+  fill: green;
+}
